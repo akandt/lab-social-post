@@ -1,0 +1,39 @@
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(3, 169, 244);
+}
+
+.btn-new-thought {
+    width: 70%;
+    height: 56px;
+    margin-bottom: 24px;
+    
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 4px;
+    font-size: 18px;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-new-thought:hover {
+    background-color: rgb(3, 169, 244);
+    border: none;
+    color: white;
+}
+
+.timeline-content {
+    width: 70%;
+    padding: 16px 24px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 4px;
+}

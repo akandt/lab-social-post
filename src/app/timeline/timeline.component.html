@@ -1,0 +1,7 @@
+<div class="timeline-container">
+    <h1>My Thoughts</h1>
+    <button class="btn-new-thought">New Thought</button>
+    <div class="timeline-content">
+        <app-post *ngFor="let item of postItems; index as i;" [post]="item"></app-post>
+    </div>
+</div>
